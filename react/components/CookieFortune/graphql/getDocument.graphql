@@ -1,0 +1,8 @@
+query getDocument ($acronym:String, $fields:[String], $schema: String, $pageSize: Int) {
+  documents (acronym: $acronym, fields: $fields, schema: $schema, pageSize: $pageSize) {
+    fields{
+      key
+      value
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "vendor": "valtech",
+  "name": "cookie-fortune",
+  "version": "0.0.0",
+  "title": "Cookie Fortune",
+  "description": "Cookie Fortune",
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "store": "0.x",
+    "assets": "0.x"
+  },
+  "dependencies": {
+    "vtex.css-handles": "0.x",
+    "vtex.styleguide": "9.x",
+    "vtex.store-graphql": "2.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
